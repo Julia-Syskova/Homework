@@ -1,4 +1,6 @@
-﻿int chislo = Read("Введите трехзначное число: ");
+﻿Console.WriteLine("Введите трехзначное число: ");
+int chislo = Convert.ToInt32(Console.ReadLine());
+
 int symma = chislo.ToString().Length;
 
 if (symma < 3 || symma > 3)
@@ -8,12 +10,6 @@ if (symma < 3 || symma > 3)
 else
 {
     Console.WriteLine(Center(chislo));
-}
-
-int Read(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
 }
 
 int Center(int a)
