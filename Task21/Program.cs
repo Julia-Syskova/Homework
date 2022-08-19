@@ -8,7 +8,7 @@ int z2 = tochka("z", "B");
 int tochka(string name1, string name2)
 {
     Console.Write($"Введите координату {name1} точки {name2}: ");
-    return Convert.ToInt16(Console.ReadLine());
+    return Convert.ToInt32(Console.ReadLine());
 }
 
 double distance(double x1, double x2, 
