@@ -3,9 +3,9 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество столбцов");
 int n = Convert.ToInt32(Console.ReadLine());
 
-double[,] masiv = new double[m, n];
-FillArray(masiv);
-PrintArray(masiv);
+double[,] massiv = new double[m, n];
+FillArray(massiv);
+PrintArray(massiv);
 
 void FillArray(double[,] array)
 {
